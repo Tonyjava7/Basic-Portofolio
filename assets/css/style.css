@@ -1,0 +1,126 @@
+* {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+body{
+	margin:auto;
+	margin-left: 10em;
+	width:960px;
+}
+
+header {
+	width:100%;
+	background: #ffffff;
+	border-color: #cccccc;
+	clear:both;
+
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 15px;
+	
+}
+
+li {
+	display: inline;
+	padding:0 10px 0 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+a:link{
+	text-decoration: none;
+}
+}
+
+section {
+	background: url('../images/spiration_light/spiration-light.png');
+	/*#ffffff;*/
+	border-color: #dddddd;
+		
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+footer {
+	padding-top: 25px;
+	background: #666666;
+	text-align: center;
+}
+
+.nameheading, #aboutme, #connectbar{
+		font-family: 'Georgia', Times, Times New Roman, serif;
+		font-size: 1.5em;
+		}
+
+#sectioncontent, .sidebar {
+	padding:20px;
+}	
+
+.nameheading {
+	margin: 0;
+	padding: 15px;	
+	float: left;
+	background: #4aaaa5;
+	width: 200px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+
+.sidebar {
+	position: absolute;
+	top:0;
+	right: 0;
+	width:270px;
+	height:auto;
+}
+.contentarea, #sidebar{
+	padding-top:50px;
+
+}
+
+}
+#portfolioheading {
+	border-right color:gray;
+	border-left color:gray;
+}
+
+#sectioncontent {
+	float: left;
+	width: 650px;
+}
+#aboutme {
+	padding-bottom:15px;
+	border-bottom: solid;
+	border-bottom-color: gray;
+	color: #4aaaa5;
+	font-weight: bold;
+	
+
+}
+
+
+
+#familypic {
+	float:left;
+	padding-right: 20px;
+	width:25%;
+	height: 20%;
+}
+
+
+#connectbar{
+	padding-bottom:15px;
+	border-bottom: solid;
+	border-bottom-color: gray;
+	color: #4aaaa5;
+	font-weight: bold;
+}
