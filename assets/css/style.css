@@ -3,22 +3,29 @@
 
 }
 
+
+header, section{
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 body{
 	margin:auto;
-	margin-left: 10em;
-	width:960px;
+		
 }
 
 header {
-	width:100%;
+	width:960px;
 	background: #ffffff;
 	border-color: #cccccc;
 	clear:both;
 
 }
 
-ul{
+ul {
 	float: right;
+	width: 270px;	
 	list-style-type: none;
 	margin: 0;
 	padding: 15px;
@@ -26,8 +33,8 @@ ul{
 }
 
 li {
+	padding:5px;
 	display: inline;
-	padding:0 10px 0 0;
 	text-align: center;
 	text-decoration: none;
 }
@@ -49,18 +56,38 @@ p{
 	padding:0;
 }
 
+
+button {
+	border-top: 15px;
+	width: 75px;
+	height: 75px;
+	border:0;
+	/*background-size: 100%;*/ /* To fill the dimensions of container (button), or */
+  	background-size: 75px auto;
+}
 footer {
-	padding-top: 25px;
+	position: fixed; 
+	bottom: 0; 
+	left: 0; 
+	right: 0;
+	padding: 25px 0 10px 0;
+	width: 100%;
 	background: #666666;
 	text-align: center;
+	color:white;
 }
+
 
 .nameheading, #aboutme, #connectbar{
 		font-family: 'Georgia', Times, Times New Roman, serif;
+		
+}
+.nameheading, #aboutme {		
 		font-size: 1.5em;
-		}
+}
 
-#sectioncontent, .sidebar {
+
+#sectioncontent,.sidebar {
 	padding:20px;
 }	
 
@@ -75,22 +102,17 @@ footer {
 	color: white;
 }
 
-.sidebar {
-	position: absolute;
+.sidebar.relative {
+	position: relative;
 	top:0;
 	right: 0;
 	width:270px;
 	height:auto;
 }
-.contentarea, #sidebar{
+
+.contentarea, .sidebar{
 	padding-top:50px;
 
-}
-
-}
-#portfolioheading {
-	border-right color:gray;
-	border-left color:gray;
 }
 
 #sectioncontent {
@@ -104,9 +126,11 @@ footer {
 	color: #4aaaa5;
 	font-weight: bold;
 	
-
 }
 
+#aboutme2 {
+	text-decoration: line-through;
+}
 
 
 #familypic {
@@ -119,8 +143,11 @@ footer {
 
 #connectbar{
 	padding-bottom:15px;
+	width:230px;
+	text-align: center;
 	border-bottom: solid;
 	border-bottom-color: gray;
 	color: #4aaaa5;
 	font-weight: bold;
 }
+
