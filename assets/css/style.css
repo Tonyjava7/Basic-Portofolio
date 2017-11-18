@@ -98,7 +98,7 @@ footer {
 
 #sectioncontent {
 	float: left;
-	width: 650px;
+	width: 620px;
 	height: auto;
 	background: white;
 }
@@ -106,8 +106,8 @@ footer {
 #familypic {
 	float:left;
 	padding-right: 15px;
-	width:25%;
-	height:20%;
+	width:40%;
+	height:40%;
 }
 
 #aboutme {
@@ -128,7 +128,7 @@ footer {
 	float:right;
 	top:0;
 	right: 0;
-	width:270px;
+	width:240px;
 	height:auto;
 	margin:0;
 	padding: 15px;
@@ -147,9 +147,6 @@ footer {
 
 }
 
-
-
-
 #connectbar{
 	padding-bottom:15px;
 	width:230px;
@@ -159,4 +156,3 @@ footer {
 	color: #4aaaa5;
 	font-weight: bold;
 }
-
