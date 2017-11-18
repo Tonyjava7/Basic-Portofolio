@@ -4,7 +4,7 @@
 }
 
 
-header, section{
+nav, .contentarea {
 	width:960px;
 	margin-left: auto;
 	margin-right: auto;
@@ -12,18 +12,16 @@ header, section{
 
 body{
 	margin:auto;
-		
 }
 
 header {
-	width:960px;
 	background: #ffffff;
 	border-color: #cccccc;
-	clear:both;
+	clear:all;
 
 }
 
-ul {
+ul{
 	float: right;
 	width: 270px;	
 	list-style-type: none;
@@ -36,20 +34,12 @@ li {
 	padding:5px;
 	display: inline;
 	text-align: center;
-	text-decoration: none;
 }
 
 a:link{
 	text-decoration: none;
 }
-}
 
-section {
-	background: url('../images/spiration_light/spiration-light.png');
-	/*#ffffff;*/
-	border-color: #dddddd;
-		
-}
 
 p{
 	margin:0;
@@ -57,14 +47,6 @@ p{
 }
 
 
-button {
-	border-top: 15px;
-	width: 75px;
-	height: 75px;
-	border:0;
-	/*background-size: 100%;*/ /* To fill the dimensions of container (button), or */
-  	background-size: 75px auto;
-}
 footer {
 	position: fixed; 
 	bottom: 0; 
@@ -86,11 +68,6 @@ footer {
 		font-size: 1.5em;
 }
 
-
-#sectioncontent,.sidebar {
-	padding:20px;
-}	
-
 .nameheading {
 	margin: 0;
 	padding: 15px;	
@@ -102,23 +79,37 @@ footer {
 	color: white;
 }
 
-.sidebar.relative {
-	position: relative;
-	top:0;
-	right: 0;
-	width:270px;
-	height:auto;
-}
+#sectioncontent,.sidebar {
+	padding:20px;
+	float: left;
+	margin:0;
+}	
 
-.contentarea, .sidebar{
-	padding-top:50px;
+.entirearea {
+	background-image: url("../images/spiration_light/spiration-light.png");
+	background-color: #ffffff;
+	border-color: #dddddd;
+	padding-top:30px;
+	width:100%;
+	position:relative;
+	float:left;
 
 }
 
 #sectioncontent {
 	float: left;
 	width: 650px;
+	height: auto;
+	background: white;
 }
+
+#familypic {
+	float:left;
+	padding-right: 15px;
+	width:25%;
+	height:20%;
+}
+
 #aboutme {
 	padding-bottom:15px;
 	border-bottom: solid;
@@ -132,13 +123,31 @@ footer {
 	text-decoration: line-through;
 }
 
+.sidebar {	
+	position: relative;
+	float:right;
+	top:0;
+	right: 0;
+	width:270px;
+	height:auto;
+	margin:0;
+	padding: 15px;
+	background:white;
 
-#familypic {
-	float:left;
-	padding-right: 20px;
-	width:25%;
-	height: 20%;
 }
+
+#connectbar, .button{
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.button {
+	padding-top: 15px;
+
+}
+
+
 
 
 #connectbar{
