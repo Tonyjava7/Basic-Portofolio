@@ -38,6 +38,7 @@ li {
 
 a:link{
 	text-decoration: none;
+	color: gray;
 }
 
 
@@ -86,14 +87,13 @@ footer {
 }	
 
 .entirearea {
+	position:relative;
+	float:left;
 	background-image: url("../images/spiration_light/spiration-light.png");
 	background-color: #ffffff;
 	border-color: #dddddd;
 	padding-top:30px;
 	width:100%;
-	position:relative;
-	float:left;
-
 }
 
 #sectioncontent {
@@ -156,3 +156,42 @@ footer {
 	color: #4aaaa5;
 	font-weight: bold;
 }
+
+.nameform, .emailform {
+	width:100%;
+	height: 25px;
+}
+
+.messageform {
+	width:100%;
+	height:100px;
+	margin-bottom: 15px;
+}
+
+.submitform{
+	background-color: #cccccc;
+}
+
+.imagesleft{
+	float:left;
+	padding-bottom: 25px;
+	width:295px;
+	height:200px;
+}
+
+.imagesright{
+	float:right;
+	padding-bottom: 25px;
+	width:295px;
+	height:200px;
+}
+
+/*.imagedesc { 
+   position: relative; 
+   bottom: 0px; 
+   left: 0; 
+   width: 50%;
+   color: red;
+}*/
+
+
